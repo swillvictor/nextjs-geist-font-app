@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Modern Company</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h2>ModernCorp</h2>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="services.html" class="nav-link">Services</a></li>
+                    <li><a href="products/product-template.html" class="nav-link">Products</a></li>
+                    <li><a href="blog/index.html" class="nav-link">Blog</a></li>
+                    <li><a href="contact.html" class="nav-link active">Contact</a></li>
+                    <li><a href="login.html" class="nav-link login-btn">Login</a></li>
+                </ul>
+                <div class="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Contact Us</h1>
+                <p>Get in touch with our team. We're here to help you achieve your business goals.</p>
+            </div>
+        </section>
+
+        <section class="page-content">
+            <div class="container">
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Let's Start a Conversation</h3>
+                        <p>We'd love to hear from you. Whether you have a question about our services, need a consultation, or want to discuss a potential project, our team is ready to help.</p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <strong>Email:</strong>
+                                <span>info@moderncorp.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <strong>Phone:</strong>
+                                <span>(555) 123-4567</span>
+                            </div>
+                            <div class="contact-item">
+                                <strong>Address:</strong>
+                                <span>123 Business Ave, Suite 100<br>New York, NY 10001</span>
+                            </div>
+                            <div class="contact-item">
+                                <strong>Hours:</strong>
+                                <span>Monday - Friday: 9:00 AM - 6:00 PM<br>Saturday: 10:00 AM - 4:00 PM</span>
+                            </div>
+                        </div>
+
+                        <div class="contact-map">
+                            <h4>Visit Our Office</h4>
+                            <p>We're located in the heart of the business district, easily accessible by public transportation and with convenient parking available.</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-form">
+                        <h3>Send Us a Message</h3>
+                        <form id="contact-form" class="contact-form-fields">
+                            <div class="form-group">
+                                <label for="name" class="form-label">Full Name *</label>
+                                <input type="text" id="name" name="name" class="form-input" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email Address *</label>
+                                <input type="email" id="email" name="email" class="form-input" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone" class="form-label">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" class="form-input">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="company" class="form-label">Company</label>
+                                <input type="text" id="company" name="company" class="form-input">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="service" class="form-label">Service Interest</label>
+                                <select id="service" name="service" class="form-input">
+                                    <option value="">Select a service</option>
+                                    <option value="web-development">Web Development</option>
+                                    <option value="digital-marketing">Digital Marketing</option>
+                                    <option value="consulting">Business Consulting</option>
+                                    <option value="cloud-solutions">Cloud Solutions</option>
+                                    <option value="mobile-development">Mobile App Development</option>
+                                    <option value="data-analytics">Data Analytics</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject" class="form-label">Subject *</label>
+                                <input type="text" id="subject" name="subject" class="form-input" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message" class="form-label">Message *</label>
+                                <textarea id="message" name="message" class="form-textarea" rows="6" required minlength="10" placeholder="Tell us about your project or how we can help you..."></textarea>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" id="newsletter" name="newsletter" class="form-checkbox">
+                                    <span class="checkbox-text">I'd like to receive updates about ModernCorp services and industry insights</span>
+                                </label>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="contact-additional">
+                    <div class="contact-cards">
+                        <div class="contact-card">
+                            <h4>Sales Inquiries</h4>
+                            <p>Ready to start a project or need a quote?</p>
+                            <p><strong>Email:</strong> sales@moderncorp.com</p>
+                            <p><strong>Phone:</strong> (555) 123-4568</p>
+                        </div>
+                        
+                        <div class="contact-card">
+                            <h4>Technical Support</h4>
+                            <p>Need help with an existing project?</p>
+                            <p><strong>Email:</strong> support@moderncorp.com</p>
+                            <p><strong>Phone:</strong> (555) 123-4569</p>
+                        </div>
+                        
+                        <div class="contact-card">
+                            <h4>Partnership Opportunities</h4>
+                            <p>Interested in partnering with us?</p>
+                            <p><strong>Email:</strong> partnerships@moderncorp.com</p>
+                            <p><strong>Phone:</strong> (555) 123-4570</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>ModernCorp</h3>
+                    <p>Delivering innovative solutions for modern businesses worldwide.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html">Web Development</a></li>
+                        <li><a href="services.html">Digital Marketing</a></li>
+                        <li><a href="services.html">Consulting</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>Email: info@moderncorp.com</p>
+                    <p>Phone: (555) 123-4567</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ModernCorp. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/form-validation.js"></script>
+</body>
+</html>
